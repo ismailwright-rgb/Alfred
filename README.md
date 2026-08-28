@@ -6,7 +6,7 @@
 
 ## What Is Alfred?
 
-Alfred is a personal AI operations system based in Alfred Pennyworth from the batman series. the digital butler who is capable of anticapating your needs. — a Discord-native, voice-capable agent that orchestrates **9 specialized sub-agents** to manage communication, research, finance, productivity, and content. It is not a demo. It runs every day.
+Alfred is a personal AI operations system based on Alfred Pennyworth from the Batman series — the digital butler capable of anticipating your needs. It is a Discord-native, voice-capable agent that orchestrates **9 specialized sub-agents** to manage communication, research, finance, productivity, and content. It is not a demo. It runs every day.
 
 You speak or type a request via Discord. Alfred routes it to the right specialized agent, executes the task, and responds — in voice (ElevenLabs TTS) or text — within seconds.
 
@@ -46,7 +46,7 @@ Discord (text or voice message)
   Stocks      Doc Agent    Social Media
   Agent                    Agent
      │
-  Career / Hustle / Spiritual / Reddit
+  Career / Hustle / Reddit
         │
         ▼
   Set Reply Message
@@ -123,11 +123,10 @@ A Discord user ID whitelist prevents unauthorized access before any LLM calls ar
 - fly.dev account (for voice server)
 
 ### Setup
-1. Import the workflow JSON into your n8n instance
-2. Configure credentials for each service (Discord, OpenRouter, ElevenLabs, Supabase, PostgreSQL)
-3. Set up the Supabase `agent_knowledge` table with pgvector extension
-4. Deploy the voice server to fly.dev
-5. Invite the Discord bot to your server and activate the workflow
+1. Configure credentials for each service (Discord, OpenRouter, ElevenLabs, Supabase, PostgreSQL)
+2. Set up the Supabase `agent_knowledge` table with pgvector extension
+3. Deploy the voice server to fly.dev
+4. Invite the Discord bot to your server and activate the workflow
 
 ### Usage
 - Type a message in your Discord channel → Alfred responds in text
@@ -165,4 +164,4 @@ Alfred is actively running and used daily. It is not a demo or a proof of concep
 ## Author
 
 **Ismail Rogers-Wright**
-[LinkedIn](https://linkedin.com/in/ismailrogerswright) · [Portfolio](https://portfoliowright.vercel.app) · [GitHub](https://github.com/ismailwright-rgb)
+[LinkedIn](https://linkedin.com/in/thekeyispersistence) · [Portfolio](https://portfoliowright.vercel.app) · [GitHub](https://github.com/ismailwright-rgb)
